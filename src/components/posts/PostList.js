@@ -1,6 +1,6 @@
 import React from 'react';
-import Post from './Post';
-import styles from './PostList.module.css';
+import Post from './post';
+import styles from './Postlist.module.css';
 
 const PostList = ({ posts }) => {
   return (

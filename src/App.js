@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchPosts } from './features/posts/postsSlice';
-import PostList from './components/PostList';
+import { fetchPosts } from './components/posts/postsSlice';
+import PostList from './components/posts/PostList';
 import styles from './App.module.css';
 
 function App() {
